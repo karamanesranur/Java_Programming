@@ -1,0 +1,64 @@
+Java Programming Day 41
+
+Topics:Maps
+
+Package name: day41_maps
+
+Array vs Collection: both supports non-primitive
+         Array: Size is fixed
+                Supports both primitive & non-primitives
+                Can be multi-dimensional
+                Faster then Collection
+
+         Collection:Size is dynamic
+                    Supports non-primitives ONLY
+                    Can not be multi-dimensional
+                    Ready methods
+
+  MAP(I):     Collection of Pairs  ( key  &  value )
+
+              Data structure based on the key+value pairs
+              Supports non-primitives ONLY
+              Size is dynamic
+              Key MUST be unique , value can be duplicated
+
+              1.HashMap  (C): Random Order
+                              Both key and values can be null
+
+              2.LinkedHashMap (C): Insertion Order
+                                   Both key and values can be null
+
+              3.TreeMap  (C): Sorted order
+                              Key can not be null ,   values can be null
+
+              4.HashTable (C): Random Order
+                               Can not accept null key and null value,
+                               Synchronized
+
+   Methods of Map:
+
+           put(key , value): inserts the given key and value to the Map as a pair(entry)
+                             can also be used for updating the values of exsiting keys
+
+           size():           returns the total number of pairs
+
+           get(key): returns the value of the specified key
+
+           replace(key , newValue): replaces the value of specifies key with the new value
+
+           remove(key): removes the pair the matching key from the map
+
+
+           containsKey(key): returns true if the specified key is included in the map , otherwise returns false
+
+           containsValue(Value): returns true if the specified Value is included in the map , otherwise returns false
+
+           keySet():returns all the keys  of the map , return type is set
+
+           values():returns all the values of the map, return type is Collection
+
+           entrySet():returns all the entries (Entry: key & value) pf the map
+
+           getKet():
+           getValue():
+           setValue(newValue):
